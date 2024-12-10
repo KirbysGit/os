@@ -1,0 +1,45 @@
+1. Creation of the Header in chash.c
+
+- Prompt Used: "Generate a professional header comment for a C  program named chash.c that includes a description of the assignment, key functions, date, authors, and team members."
+
+- AI's Contribution: The AI provided a template for the header, which we customized to fit our assignment details.
+
+- Our Evaluation: We reviewed the AI-generated header, ensured it met the assignment's requirements, and made necessary adjustments.
+
+--- 
+
+2. Understanding the Functionalities of a Makefile
+
+- Prompt Used: "Explain how to create a Makefile for compiling a C program with multiple source files and header files. Include common targets like clean and variables for compiler flags."
+
+- AI's Contribution: The AI provided explanations and examples of Makefile structure, variables, and targets.
+
+- Our Evaluation: We used this information to understand how to construct our Makefile, ensuring we included all necessary targets and compiler options.
+
+---
+
+3. Creating the Initial Architecture of the main Function
+
+- Prompt Used: "Provide an outline for the main function of a C program that reads commands from a file, creates threads for each command, and synchronizes them using condition variables and mutexes."
+
+- AI's Contribution: The AI generated an outline of the main function, including code snippets for reading the file, parsing commands, and thread management.
+
+- Our Evaluation: We adapted the AI's suggestions, integrated them with our own code, and ensured that we understood each part of the implementation.
+
+--- 
+
+4. Developing the Main Hash Table Functions
+
+- Prompt Used: "Explain how to implement thread-safe insert, delete, and search functions for a concurrent hash table in C using read-write locks."
+
+- AI's Contribution: The AI provided guidance on implementing these functions with proper synchronization.
+
+- Our Evaluation: We used this information as a reference, wrote our own implementations, and carefully tested them to ensure correctness.
+
+---
+
+5. Jenkins One-at-a-Time Hash Function
+
+- Source: We referred to Wikipedia's article on Jenkins hash functions for the implementation of the jenkins_one_at_a_time_hash function.
+
+- Our Evaluation: We implemented the hash function as described and tested it with sample inputs to verify its correctness.
